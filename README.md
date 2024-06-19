@@ -7,40 +7,67 @@ A COMPREHENSIVE ENVIRONMENT DEVELOPER SET UP DOCUMENTATION
 
 Select Your Operating System (OS): Choose an operating system that best suits your preferences and project requirements. Download and Install Windows 11. https://www.microsoft.com/software-download/windows11
 
+
 STEPS
 1.Check System Requirements:
-Visit the official Windows 11 specifications page to ensure your computer meets the minimum system requirements.
-Backup Your Data:
-Before making any changes, backup all important files and data to an external drive or cloud storage.
-Download Windows 11:
- Go to the provided link: https://www.microsoft.com/software-download/windows11
-Click on ‘Download tool now’ under the ‘Create Windows 11 Installation Media’ section.
-Run the downloaded Media Creation Tool as an administrator.
-Create Installation Media:
-In the Media Creation Tool, accept the license terms.
-Select ‘Create installation media (USB flash drive, DVD, or ISO file) for another PC’ and click ‘Next’.
-Choose the language, edition, and architecture for Windows 11. Click ‘Next’.
-Insert a blank USB flash drive with at least 8GB of space.
-Select ‘USB flash drive’ and click ‘Next’. Choose your USB drive from the list and click ‘Next’.
-The tool will download Windows 11 and create bootable installation media.
-Install Windows 11:
-Insert the bootable USB flash drive into your computer.
-Restart your computer and enter the BIOS/UEFI settings (usually by pressing F2, F12, Del, or Esc during startup).
-Change the boot order to boot from the USB drive first.
-Save changes and exit BIOS/UEFI. Your computer will restart and boot from the USB drive.
-On the Windows Setup screen, select your language, time, currency format, and keyboard input method. Click ‘Next’.
-Click ‘Install now’.
-If prompted, enter your Windows 11 product key. If you’re reinstalling Windows 11 on a previously activated device, you can skip this step.
-Accept the license terms and click ‘Next’.
-Choose ‘Custom: Install Windows only (advanced)’ for a clean installation.
-Select the drive where you want to install Windows 11. If necessary, format the drive or delete existing partitions (this will erase all data on the drive).
-Click ‘Next’ to begin the installation process.
-Complete Installation:
-Follow any additional on-screen instructions to complete the installation process.
-Once installed, remove the USB drive when prompted and let your computer restart.
-Go through the initial setup process for Windows 11, including setting up a user account and preferences.
-Update Drivers and Software:
-After installation, check for updates in Windows Update and install any available driver updates
+i. Visit the official Windows 11 specifications page to ensure your computer meets the minimum system requirements.
+
+2. Backup Your Data:
+i. Before making any changes, backup all important files and data to an external drive or cloud storage.
+
+3. Download Windows 11:
+ i. Go to the provided link: https://www.microsoft.com/software-download/windows11
+
+ii. Click on ‘Download tool now’ under the ‘Create Windows 11 Installation Media’ section.
+
+iii. Run the downloaded Media Creation Tool as an administrator.
+
+4. Create Installation Media:
+i. In the Media Creation Tool, accept the license terms.
+
+ii. Select ‘Create installation media (USB flash drive, DVD, or ISO file) for another PC’ and click ‘Next’.
+
+iii. Choose the language, edition, and architecture for Windows 11. Click ‘Next’.
+
+iv. Insert a blank USB flash drive with at least 8GB of space.
+
+v. Select ‘USB flash drive’ and click ‘Next’. Choose your USB drive from the list and click ‘Next’.
+
+vi. The tool will download Windows 11 and create bootable installation media.
+
+5. Install Windows 11:
+i/ Insert the bootable USB flash drive into your computer.
+
+ii. Restart your computer and enter the BIOS/UEFI settings (usually by pressing F2, F12, Del, or Esc during startup).
+
+iii. Change the boot order to boot from the USB drive first.
+
+iv. Save changes and exit BIOS/UEFI. Your computer will restart and boot from the USB drive.
+
+v. On the Windows Setup screen, select your language, time, currency format, and keyboard input method. Click ‘Next’.
+
+vi. Click ‘Install now’.
+
+vii. If prompted, enter your Windows 11 product key. If you’re reinstalling Windows 11 on a previously activated device, you can skip this step.
+
+viii. Accept the license terms and click ‘Next’
+.
+ix. Choose ‘Custom: Install Windows only (advanced)’ for a clean installation.
+
+x. Select the drive where you want to install Windows 11. If necessary, format the drive or delete existing partitions (this will erase all data on the drive).
+
+xi. Click ‘Next’ to begin the installation process.
+
+6. Complete Installation:
+i. Follow any additional on-screen instructions to complete the installation process
+.
+ii. Once installed, remove the USB drive when prompted and let your computer restart.
+
+iii. Go through the initial setup process for Windows 11, including setting up a user account and preferences.
+
+iv. Update Drivers and Software:
+
+v. After installation, check for updates in Windows Update and install any available driver updates
 
 
 
@@ -50,71 +77,110 @@ After installation, check for updates in Windows Update and install any availabl
 Install a Text Editor or Integrated Development Environment (IDE): Select and install a text editor or IDE suitable for your programming languages and workflow. Download and Install Visual Studio Code. https://code.visualstudio.com/Download
 
 STEPS
-Download Visual Studio Code:
-Visit https://code.visualstudio.com/Download
-Click on the download button for Windows.
-Run the Installer:
-Once the download is complete, locate the downloaded file (usually in your ‘Downloads’ folder).
+1. Download Visual Studio Code:
+i. Visit https://code.visualstudio.com/Download
+
+ii. Click on the download button for Windows.
+
+2. Run the Installer:
+i. Once the download is complete, locate the downloaded file (usually in your ‘Downloads’ folder).
 Run the installer (VSCodeUserSetup-{version}.exe).
-Installation Process:
-If prompted by the User Account Control, click ‘Yes’ to allow the app to make changes to your device.
+
+3. Installation Process:
+i. If prompted by the User Account Control, click ‘Yes’ to allow the app to make changes to your device.
 Accept the license agreement and click ‘Next’.
-Choose the installation location or leave the default path and click ‘Next’.
-Select the Start Menu folder for the program’s shortcuts or leave the default and click ‘Next’.
-Choose additional tasks such as creating a desktop icon or adding an option to open files with VS Code in the context menu. Click ‘Next’.
-Review your choices and click ‘Install’ to begin the installation.
-Complete Setup:
-Once installation is complete, click ‘Finish’. You can choose to launch Visual Studio Code immediately.
-First Launch:
-Upon launching, you can customize your workspace, install extensions, and start coding!
+
+ii. Choose the installation location or leave the default path and click ‘Next’.
+
+iii. Select the Start Menu folder for the program’s shortcuts or leave the default and click ‘Next’.
+
+iv. Choose additional tasks such as creating a desktop icon or adding an option to open files with VS Code in the context menu. Click ‘Next’.
+
+v. Review your choices and click ‘Install’ to begin the installation.
+
+4. Complete Setup:
+i. Once installation is complete, click ‘Finish’. You can choose to launch Visual Studio Code immediately.
+
+5. First Launch:
+i. Upon launching, you can customize your workspace, install extensions, and start coding!
 
 
 Set Up Version Control System: Install Git and configure it on your local machine. Create a GitHub account for hosting your repositories. Initialize a Git repository for your project and make your first commit. https://github.com
 
 STEPS TO INSTALLING GIT
-Download Git:
-Go to https://github.com and download the latest version for Windows.
-Run the Installer:
-After downloading, run the installation file with Administrator rights.
-Follow the setup wizard, accepting the license agreement.
-Choose an installation location or use the default path provided.
-Select Components:
-Install the default components, which typically include ‘Git GUI Here’ and ‘Git Bash Here’.
-Choose Default Editor:
-Select your preferred text editor for Git to use when entering commit messages. Notepad++ is a common choice.
-Adjust PATH Environment:
-Add Git to the Windows PATH to access Git commands from any command prompt.
-Configure Line Ending Conversions:
-Choose how Git should treat line endings in text files and click ‘Next’.
-Finish Installation:
-Review your settings and click ‘Install’. Once completed, click ‘Finish’.
-Configure Git:
-Open Git Bash or the Windows Command Prompt.
-Set your global username: git config --global user.name "joselineassiam"
-Set your global email: git config --global user.email "assiamjoseline@gmail.com"
-Verify Configuration:
-Check your configuration settings: git config --list
+
+1. Download Git:
+i. Go to https://github.com and download the latest version for Windows.
+
+2. Run the Installer:
+i. After downloading, run the installation file with Administrator rights.
+
+ii. Follow the setup wizard, accepting the license agreement.
+
+iii. Choose an installation location or use the default path provided.
+
+3. Select Components:
+i. Install the default components, which typically include ‘Git GUI Here’ and ‘Git Bash Here’.
+
+4. Choose Default Editor:
+i. Select your preferred text editor for Git to use when entering commit messages. Notepad++ is a common choice.
+
+5. Adjust PATH Environment:
+i. Add Git to the Windows PATH to access Git commands from any command prompt.
+
+6. Configure Line Ending Conversions:
+i. Choose how Git should treat line endings in text files and click ‘Next’.
+
+7. Finish Installation:
+i. Review your settings and click ‘Install’. Once completed, click ‘Finish’.
+
+8. Configure Git:
+i. Open Git Bash or the Windows Command Prompt.
+
+ii.Set your global username: git config --global user.name "joselineassiam"
+
+iii. Set your global email: git config --global user.email "assiamjoseline@gmail.com"
+
+8. Verify Configuration:
+i. Check your configuration settings: git config --list
+
+
 STEPS TO CREATING MY GITHUB ACCOUNT FOR MY REPOSITORIES
-Create a GitHub Account:
-Go to https://github.com/
-Click ‘Sign up’.
-Follow the prompts to create your personal account.
-Verify your email address.
-Initialize a Repository:
-Log in to your GitHub account.
-Navigate to your repositories page, and click ‘New’.
-Enter a repository name, description, and select visibility (public or private).
-Optionally, initialize the repository with a README file.
-Make Your First Commit:
-On your local machine, create a new directory for your project.
-Open Git Bash or Command Prompt in this directory.
-Initialize the local directory as a Git repository: git init
-Add files to your repo: git add . (adds all files)
-Commit the files: git commit -m "First commit"
-Link Your Local Repository to GitHub:
-On GitHub, copy the remote repository URL.
-In your command line, add the URL for the remote repository: git remote add origin [remote repository URL]
-Push your commit to GitHub: git push origin master
+1. Create a GitHub Account:
+i. Go to https://github.com/
+
+ii. Click ‘Sign up’.
+
+iii. Follow the prompts to create your personal account.
+
+iv. Verify your email address.
+
+2. Initialize a Repository:
+i. Log in to your GitHub account.
+
+ii. Navigate to your repositories page, and click ‘New’.
+
+iii. Enter a repository name, description, and select visibility (public or private).
+
+iv. Optionally, initialize the repository with a README file.
+
+3. Make Your First Commit:
+i. On your local machine, create a new directory for your project.
+
+ii. Open Git Bash or Command Prompt in this directory.
+
+iii. Initialize the local directory as a Git repository: git init
+
+iv. Add files to your repo: git add . (adds all files)
+
+v. Commit the files: git commit -m "First commit"
+
+4. Link Your Local Repository to GitHub:
+i. On GitHub, copy the remote repository URL.
+
+ii. In your command line, add the URL for the remote repository: git remote add origin [remote repository URL]
+
+iii. Push your commit to GitHub: git push origin main
 
 
 
@@ -123,63 +189,86 @@ Install Necessary Programming Languages and Runtimes: Instal Python from http://
 
 STEPS TO INSTALLING PYTHON
 
-Download Python:
-Visit the official Python website: python.org.
-Go to the Downloads section and download the latest version of Python for your operating system.
-Install Python:
-Run the downloaded installer.
-Make sure to check the box that says “Add Python to PATH” during installation.
-Follow the installation prompts to complete the setup.
-Verify Installation:
-Open Command Prompt or Terminal.
-Type python --version and press Enter. You should see the Python version number if the installation was successful.
-Install Pip (Python Package Installer):
-Pip is usually installed with Python. Verify by typing pip --version in Command Prompt or Terminal.
-Set Up Virtual Environment (Optional but Recommended):
-Install virtualenv: pip install virtualenv.
-Create a virtual environment in your project directory: virtualenv venv.
-Activate the virtual environment:
-On Windows: venv\Scripts\activate.
-Install Necessary Packages:
-Use pip to install any packages you need: pip install package_name.
-Write Your Python Code:
-Use any text editor or IDE to write your Python code.
-Run Your Python Program:
-Navigate to your project directory in Command Prompt or Terminal.
-Run your script: python script_name.py
+1. Download Python:
+i. Visit the official Python website: python.org.
+
+ii. Go to the Downloads section and download the latest version of Python for your operating system.
+
+2. Install Python:
+i. Run the downloaded installer.
+
+ii. Make sure to check the box that says “Add Python to PATH” during installation.
+
+iii. Follow the installation prompts to complete the setup.
+
+3. Verify Installation:
+i. Open Command Prompt or Terminal.
+
+ii. Type python --version and press Enter. You should see the Python version number if the installation was successful.
+
+4. Install Pip (Python Package Installer):
+i. Pip is usually installed with Python. Verify by typing pip --version in Command Prompt or Terminal.
+
+5. Set Up Virtual Environment (Optional but Recommended):
+i. Install virtualenv: pip install virtualenv.
+
+ii. Create a virtual environment in your project directory: virtualenv venv.
+
+6. Activate the virtual environment:
+i. On Windows: venv\Scripts\activate.
+
+7. Install Necessary Packages:
+i. Use pip to install any packages you need: pip install package_name.
+
+8. Write Your Python Code:
+i. Use any text editor or IDE to write your Python code.
+
+9. Run Your Python Program:
+i. Navigate to your project directory in Command Prompt or Terminal.
+
+ii. Run your script: python script_name.py
 
 
 
 Configure a Database (MySQL): Download and install MySQL database. https://dev.mysql.com/downloads/windows/installer/5.7.html
 
 STEPS
-Download MySQL Installer: https://dev.mysql.com/downloads/windows/installer/5.7.html
-Visit the official MySQL website: https://dev.mysql.com/downloads/windows/installer/5.7.html
-Download the MySQL Installer for Windows.
-Run the Installer:
-Execute the downloaded installer.
-Choose a setup type (Full, Custom, Server only, Client only).
-Follow the installation prompts.
-Configure MySQL Server:
-After installation, the configuration wizard will start.
-Set up root password and other user accounts as needed.
-Configure server settings like port (default is 3306) and Windows Service details.
-Complete Installation:
-Review configuration settings and apply them.
-Once configuration is complete, click ‘Finish’.
-Verify Installation:
-Open MySQL Command Line Client from the Start Menu.
-Enter the root password you set during configuration.
-You should be able to run SQL commands like SHOW DATABASES;
+1. Download MySQL Installer: https://dev.mysql.com/downloads/windows/installer/5.7.html
+i. Visit the official MySQL website: https://dev.mysql.com/downloads/windows/installer/5.7.html
+
+ii. Download the MySQL Installer for Windows.
+
+2. Run the Installer:
+i. Execute the downloaded installer.
+
+ii. Choose a setup type (Full, Custom, Server only, Client only).
+
+iii. Follow the installation prompts.
+
+3. Configure MySQL Server:
+i. After installation, the configuration wizard will start.
+
+ii. Set up root password and other user accounts as needed.
+
+iii. Configure server settings like port (default is 3306) and Windows Service details.
+
+4. Complete Installation:
+1. Review configuration settings and apply them.
+
+ii. Once configuration is complete, click ‘Finish’.
+
+5. Verify Installation:
+i. Open MySQL Command Line Client from the Start Menu.
+
+ii. Enter the root password you set during configuration.
+
+iii. You should be able to run SQL commands like SHOW DATABASES;
 
 
 
+IMAGES
 
-Set Up Development Environments and Virtualization (Optional): Consider using virtualization tools like Docker or virtual machines to isolate project dependencies and ensure consistent environments across different machines.
 
-Explore Extensions and Plugins: Explore available extensions, plugins, and add-ons for your chosen text editor or IDE to enhance functionality, such as syntax highlighting, linting, code formatting, and version control integration.
-
-Document Your Setup: Create a comprehensive document outlining the steps you've taken to set up your developer environment. Include any configurations, customizations, or troubleshooting steps encountered during the process.
 
 #Deliverables:
 
